@@ -1,0 +1,10 @@
+C:\Users\MaZ\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Microsoft\Master2\1.0\\Master2.dll
+C:\Users\MaZ\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Microsoft\Master2\1.0\\GalaSoft.MvvmLight.dll
+C:\Users\MaZ\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Microsoft\Master2\1.0\\GraphSharp.Controls.dll
+C:\Users\MaZ\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Microsoft\Master2\1.0\\GraphSharp.dll
+C:\Users\MaZ\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Microsoft\Master2\1.0\\Microsoft.Contracts.dll
+C:\Users\MaZ\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Microsoft\Master2\1.0\\QuickGraph.dll
+C:\Users\MaZ\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Microsoft\Master2\1.0\\WPFExtensions.dll
+C:\Users\MaZ\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Microsoft\Master2\1.0\\Master2.pkgdef
+C:\Users\MaZ\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Microsoft\Master2\1.0\\extension.vsixmanifest
+C:\Users\MaZ\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Microsoft\Master2\1.0\\Master2.pdb

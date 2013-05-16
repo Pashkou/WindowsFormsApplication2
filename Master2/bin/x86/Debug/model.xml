@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Model>
+  <Class Name="Class2">
+    <Parent>Object</Parent>
+    <Interfaces />
+    <Methods>
+      <Method Name="getDetails" />
+    </Methods>
+  </Class>
+  <Class Name="Class1">
+    <Parent>Class2</Parent>
+    <Interfaces />
+    <Methods>
+      <Method Name="callClass5">
+        <OutgoingMethod class="Class5" incMethodName="doIt" />
+        <OutgoingMethod class="Class5" incMethodName="doThat" />
+        <OutgoingMethod class="Class3" incMethodName="getInformatiopn" />
+      </Method>
+      <Method Name="getFirstName">
+        <OutgoingMethod class="Class5" incMethodName="doIt" />
+      </Method>
+      <Method Name="getLastName" />
+    </Methods>
+  </Class>
+  <Class Name="Class3">
+    <Parent>Class1</Parent>
+    <Interfaces />
+    <Methods>
+      <Method Name="getInformatiopn">
+        <IncomingMethod class="Class1" incMethodName="callClass5" />
+      </Method>
+    </Methods>
+  </Class>
+  <Class Name="Class4">
+    <Parent>Class1</Parent>
+    <Interfaces />
+    <Methods>
+      <Method Name="getParentName" />
+    </Methods>
+  </Class>
+  <Class Name="Class5">
+    <Parent>Object</Parent>
+    <Interfaces />
+    <Methods>
+      <Method Name="doIt">
+        <IncomingMethod class="Class1" incMethodName="callClass5" />
+        <IncomingMethod class="Class1" incMethodName="getFirstName" />
+      </Method>
+      <Method Name="doThat">
+        <IncomingMethod class="Class1" incMethodName="callClass5" />
+      </Method>
+    </Methods>
+  </Class>
+  <Class Name="Form1">
+    <Parent>Form</Parent>
+    <Interfaces>
+      <Interface>IComponent</Interface>
+      <Interface>IDisposable</Interface>
+      <Interface>IOleControl</Interface>
+      <Interface>IOleObject</Interface>
+      <Interface>IOleInPlaceObject</Interface>
+      <Interface>IOleInPlaceActiveObject</Interface>
+      <Interface>IOleWindow</Interface>
+      <Interface>IViewObject</Interface>
+      <Interface>IViewObject2</Interface>
+      <Interface>IPersist</Interface>
+      <Interface>IPersistStreamInit</Interface>
+      <Interface>IPersistPropertyBag</Interface>
+      <Interface>IPersistStorage</Interface>
+      <Interface>IQuickActivate</Interface>
+      <Interface>ISupportOleDropSource</Interface>
+      <Interface>IDropTarget</Interface>
+      <Interface>ISynchronizeInvoke</Interface>
+      <Interface>IWin32Window</Interface>
+      <Interface>IArrangedElement</Interface>
+      <Interface>IBindableComponent</Interface>
+      <Interface>IContainerControl</Interface>
+    </Interfaces>
+    <Methods />
+  </Class>
+  <Class Name="Program">
+    <Parent>Object</Parent>
+    <Interfaces />
+    <Methods />
+  </Class>
+  <Class Name="Resources">
+    <Parent>Object</Parent>
+    <Interfaces />
+    <Methods />
+  </Class>
+  <Class Name="Settings">
+    <Parent>ApplicationSettingsBase</Parent>
+    <Interfaces>
+      <Interface>INotifyPropertyChanged</Interface>
+    </Interfaces>
+    <Methods>
+      <Method Name="get_Default" />
+    </Methods>
+  </Class>
+</Model>
